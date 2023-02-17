@@ -13,10 +13,10 @@ public class Challenge8 {
         System.out.println("Digite el porcentaje de asistencias");
         por=redeye.nextDouble();
         if(prom>=3.5 && por>=70){
-            System.out.println("aprobo");
+            System.out.println("su promedio de notas fue de "+prom+" por ende aprobo");
         }
         else{
-            System.out.println("reprobo");
+            System.out.println("su promedio de notas fue de "+prom+" por ende reprobo");
         }
         redeye.close();
         }
