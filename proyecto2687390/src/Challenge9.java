@@ -12,10 +12,10 @@ public class Challenge9 {
             System.out.println("bienvenido "+user);
         }
         else if(user!="Eduardo"&&password.equals("123")){
-            System.out.println("Parece que olvidaste tus credenciales de acceso");
+            System.out.println("Algo pasa con tus datos de acceso");
         }
         else if(user.equals("Eduardo")&&password!="123"){
-            System.out.println("Algo pasa con tus datos de acceso");
+            System.out.println("Parece que olvidaste tus credenciales de acceso");
         }
         else{
             System.out.println("Acceso denegado");
