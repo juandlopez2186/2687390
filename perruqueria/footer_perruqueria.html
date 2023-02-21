@@ -1,0 +1,239 @@
+<html>
+    <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <head>
+      <style>
+            .carousel-inner img {width: 100%;
+        Max-height: 500px;
+        }
+        footer {
+        background-color:#6d6b6b;
+        height: 60%;
+        Color: white;
+        padding: 20px;
+      }
+      nav{
+      background-color:#6d6b6b;
+        Color: white;
+      }
+
+            *{
+                color: #000;
+            }
+h2 {
+  text-align: initial;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+
+h2.l{
+  color: #0d0d0d;
+
+}
+        </style>
+    </head>
+    <body style="background-image:url(https://img.freepik.com/vector-premium/patrones-fisuras-huellas-patas-naranjas-huesos_197792-128.jpg);">
+
+      <nav class="navbar bg-light fixed-top" style="padding-left: 2%;" style="background-color:#6d6b6b; Color: white;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="footer_perruqueria.html">
+            <img style="width: 25%;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAgVBMVEX///8aGhoAAAAbGxt8fHwWFhb8/PwHBwcYGBj5+fkMDAxmZmaysrIvLy8mJibt7e28vLxycnIRERHm5ub09PTa2tpZWVlAQECYmJjT09OMjIzp6elHR0c3NzeDg4PBwcFdXV09PT10dHTKysqXl5crKyu0tLSkpKRjY2NOTk6qqqogeYVmAAAJuUlEQVR4nO1daXvyKhAlg5BFjYrRqtXWaqvV//8DLwwkxi3Gur1wOV9aU9MHTmZgNiaEeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eFgLzi994SnDeCk4ee9+NyrwP+CgOwWA8CwAnOYgjmOynIGgQQUitzngnH+ACCopcJ0DQn4hUBTQAxryz/jDYQ7UdtCD0lz3SIhAQXPw6pE+DpKDtaaAQXhIgYjWq1ZrG+Jf41cP9WHgpA+REnoBrS7sMRCwnwy/w5j8AH2HLYQmPv7wKyNj2JcD6OpvvAn1YU2clYQBoNR/ZSgR+xz09ZP/UF9hibMUkAk+fBio39vsgAP9laVcFWmQbLJjg/qihW0FvtS8wwb+/gGnOOCSG7U1hLOlm6LQQfnXYnC4IBQcdPOdI5gvevtYOCAIY7X7M4oyzclQnNIFQhqGHJbsexEJpA6IxidIVRdDojkY762KBQcxHx5sGTlY2wEOUMyTpv7AcUWgRxxwHjeBHUyfuskBIdlbyX3c6YLENlF+FS0xQN3kgJN3IY7lQCIm2foN9uAoB8p0pmGuDXtyoNAZdwustuAoBxLZHBdGeoKDPXTc5UDukq1IB5Uuc0Dd5EAhVqqfJNUcoKPBvhywkU5xoAymwbYxf3u/eKfYPHR0z8FpDmKuf1bduVA+d7h44NiehZO6cBGSnYyho9F6yKieiz9ykPuYUKkuluBvHBCyUn5GkMzvP6Ln4zIHJ+MmLZQCCuNHju1ZqMHB8aW+icaH18vPv4g6ctBqrQq0Vq3REJQ5TSmDjr3Wgdz8Bub51uFgue8rgdCOI4Plc4b7IIxyG7AOB3x8FDxQJmIeercUGQhDQp19QcWXWCkTR4OIBpBYvh6ugIoQ1aHW3ngQZKM0CqGRPWeoD8MIpDozFUyux0FMxmGuDtKXAtaodKeswDf6fGJQWw44WYLWBtr4WI+Vw2x7ekUnDJhUh7p2okoyYDTR8s1gh5gxVV3AoP9ZlwOus3KUpbH9CWiUYZw6pYJ9h/X9hSYaBjBxgAPyGabtwKzzWsBpWgdtvCeqDi9ZggGwwuZJTZ6gBiJjIkDj1RO4GdLuyxMplMIkObYAL8F+QeCqoEBPJgp/P88kEitA4dv6jVEOfw3q8TOYxt3rOQhYym3nAG3fjfT/2CgvLRCsukLzANJGsJ8DOYNs3C/KK8Tm66plIew5wMFuCsZOzNrJFZIQuVWwmdvK71eR4EYcMUfhL3TaV6gDjF497nsi54CTzk99EsT81eO+Jwo5UCRUH2EoIRKvHvc9UeKAvP+Ii7M3HEDn1QO/FzCWRnd+o1KHWqLgSHLFJE+wNs9wINVhVnNNcCWSkvU/1x9DsZMDXpsEanu+GcsxB+t5qg6y4QpQiqHU2yIprF83/jtAUtCfzACSXd6kXJeW1VoYpetoNbpDUHmj0uJXqk8k9ewEezmIY0JWKZg5UgmVOzU2kgFX6nBxc7CWA7nmLWelhFEkQpNFHZb8wFoLI2xfOI+bkDUwZ4xPWcipb3qj1edyMBj0y3JAapBgab6Vk0+aB40YwNv38lzGsIY62GojTfLkMYN0Mqj4IucXt0g7w6rxL1CsQ2bQblUX2KI6VJJArQyidL6w1l4yUGs5u6AOYvrwAd8fnTShkTq5BIta6UJevTDC5PFDvi8wNIAinNDP+rdVkGCfy8RjMxvYdOoHhKvsBAsPgA/1iXZY8Cti4hXqkAwfONgHgMfmOG8AH1c3tzm9MCrP2ar8AtdhEk3B1fdm7RNeZAQdy3JtHREhBT1yjSYgThtLNFyQ2CIO5CyaWHISDv+YK+7MwkN1sMxQ5rrqJmC08ycO1GGNw4XRtoJ9zmcsryb7EwdE7w5lUbDOOFAnMSmV6+GfFVgtjOXdIfm1a1MgccpQE7K/L+RKHdqlljnQt2xT2OpTR6sbHp26M9stjDCySgzk88JOH2J26z+SbqfJRd78v54MVW6O55ZvDXwpszkx5tHAJilQQ28oEWbp7f+I/xqva2uVJkhwgR2ubtdgPjdN0xq2UWDqEO8Q+zON9cC2bZGY/k/qWPYtI5f3DgHP78DUJjfBYMOC22uHODFNccKphVX7Wbn/05/Bh9r3DqcneoX988C2Vyy96fAVl8shOsxial/8jOC57Fu7NPB4DroPEGT2KQJRSyK9GD7iF57uHExPJNVP1UISmklwMUPchWnrXHNIXiyHgbX9VOfY/7LaUF6BgPPaMgRqOQdT5edcCHxt5Szh3JEupCCiFnPA0Wm8sDWOQAcIj1Wdm2Z5VGhnycLFgJD4Bzmo7ljSwzXj1HE9/quXw3BKLeYA26NWVtVyqS8RhseO/zQ3mZkNNgVzlwOSKQpOnPHk8TCnIMsc50AHWU5wMDSnmzcZcZ0D3Wf8sE8WUqCWQ1AGsuscbA5rdfFG3jSKgJ6i4xx09FwPdWFSKII6yOgyB7uW+3v9E/PwE1VrgYLTHBCS6rOd+z0k+RQVJNwYT9FtDlbGI9qXA12vkGDIBBMsLnPAZ6LgoFSrO1SmYxQV9qXLHJjGbyrOUq4vwggcVYkEnl9wl4OM5iXs4q10eal75uzip85yIB9yo4iPRKIURUFPMuntLrjLASl3fyinYTApUQ7IO8sB6ZfOM6nkfAHNQenMVgYmpmohznMgFSGelYvuyqJ/JAc8UqefLK3WP8+BdBT2qs0Y3T3lEZ58LZFCvoTiwMqTK2c54PzwnRK0VKmi1wlaFDNy1UkZz8JamGQ5x4FUhMPXalAxLcyBd1O+w4sEa8u8usfCVfEMB5KCORyWXVLYFfWju8DSvB4XHUf1Iq+pMxxwTJ8VloFpFhWIWTHlLU45/N3V9i7CvNrXNnU4yYGUgo15XWey1xFodzQlS9F+VFM2vOgXeFFYWLcknNGF1cdEo/GbAiQ7bTDJGK57IsgLO29yZOJKPWIZ6sSRuj0ARs2Jv+KkZ9OU3jSNJKi8I7VSHS5zgNGBUX7yUwTF+5imYT5l/E7Ms6m2J+QVxzjQjzmb6K7Rci8wLyfj5hAPhV7+IgZJgo3qUCeurDF406IgaJ6czGbFlI06GEmgYFWfsLocyEnyXk5Crg47STCNM3j2ZkiwqWDZcFDP35vokhsR5Kl688YuCkMkUVWhoPFEo1uLvJ4Jw8G6VQfdKTO7w0bfsFob31rAYosXWlt9waZzLJoDCvVQ9MgS+ZXClkz2r9jUVDY2ryat0/UJu4Kc+9vBT5uaYOQc3Bs0sWd/fBQHNp38j1MIHwKYWbM7xh+NB8GebuO2jNPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PjjvgPNnl9jUu53XEAAAAASUVORK5CYII=">
+            PERRUQUERIA 
+            <ul class="nav nav-tabs">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">TU Mascota</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Untitled-1.html">Registar</a></li>
+                  
+                </ul>
+              </li>
+             
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Usuarios</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Untitled-1.html">Registarte</a></li>
+                    <li><a class="dropdown-item"  href="Trabajo.html">Ingresar</a></li>
+                    
+
+                  </ul>
+              </li>
+                
+                    
+            </ul>
+          
+          
+              </nav>
+        <div  id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin: 20%; width: 65% ;  margin-top: 10%; margin-bottom: 20%;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="http://mascotafiel.com/wp-content/uploads/2017/01/hacer-peluquer%C3%ADa-canina-en-casa-8_opt.jpg"  height="450px" class="d-block w-100" width="35PX" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://d2jhl5pzkfi24b.cloudfront.net/article_image/0001/02/065bdeb09a11536e98a2d85101647ffce666cc51.jpeg" height="450px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkPH127NtgIryfyjOemHURBI1TURoSrcs5j-GDnEsgn59ykxCq7qghK0AmIGwu8QZCaE&usqp=CAU" height="450px" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://thumbs.dreamstime.com/b/un-perro-blanco-estaba-ba%C3%B1ando-perros-ba%C3%B1%C3%A1ndose-en-interiores-gente-mascota-209436704.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.hillspet.es/content/dam/cp-sites/hills/hills-pet/en_us/exported/dog-care/Skyword/images/shibu-inu-getting-nails-filed-SW.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <footer style="padding-top: 4%; ;margin-top: 25%; ;">
+
+            <div>
+              <a href="" class="me-4 link-grayish">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="me-4 link-grayish">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 link-grayish">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="me-4 link-grayish">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="me-4 link-grayish">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="me-4 link-grayish">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+           
+          </section>
+        
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+             
+              <div class="row mt-3">
+               
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                 
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3 text-grayish"></i>Perruqueria
+                  </h6>
+                  <p>
+                   Empresa con animo de lucro, prestadora de servicios a tu mascota
+                  </p>
+                </div>
+         
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Productos
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Angular</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">React</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Vue</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Laravel</a>
+                  </p>
+                </div>
+           
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                 
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Enlaces
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Precios</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Ajustes</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Pedidos</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Ayuda</a>
+                  </p>
+                </div>
+        
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        
+                  <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                  <p><i class="fas fa-home me-3 text-grayish"></i> Bogota, BG 10012, COL</p>
+                  <p>
+                    <i class="fas fa-envelope me-3 text-grayish"></i>
+                    Mesasanti818@gmailcom
+                    <br>
+                    juandavidl432@gmail.com
+                  </p>
+                  <p><i class="fas fa-phone me-3 text-grayish"></i> + 57 315 641 5028</p>
+                  <p><i class="fas fa-print me-3 text-grayish"></i> + 57 311 848 2370</p>
+                </div>
+              </div>
+         
+            </div>
+          </section>
+        
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Santiago Mesa</a>
+          </div>
+        </footer>
+    </body>
+</html>
