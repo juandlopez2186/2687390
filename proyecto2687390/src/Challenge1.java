@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class reto1 {
+public class Challenge1 {
     public static void main(String[] args) {
         float fahrenheit;
         Scanner lectura=new Scanner(System.in);
