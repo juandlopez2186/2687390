@@ -12,6 +12,7 @@ public class Challenge14 {
             System.out.println("registre el gasto");
             pop=redeye.nextInt();
             tot=tot+pop;
+            pre=100000;
             pre=pre-tot;
             x=x+1;
             System.out.println("sus gastos hasta ahora son "+tot+" y el presupuesto que le queda es de "+pre);
