@@ -4,7 +4,7 @@ public class Challenge7 {
     public static void main(String[] args) {
         Scanner redeye=new Scanner(System.in);
         Random result=new Random();
-        int coin=result.nextInt(2);
+        int coin=result.nextInt(2)+1;
         int random;
         System.out.println("¿que saldra cara(0) o sello(1)?");
         random=redeye.nextInt();
