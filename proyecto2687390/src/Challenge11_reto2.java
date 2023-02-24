@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Challenge11i {
+public class Challenge11_reto2 {
     public static void main(String[] args) {
         int month;
         double weight,dosis;
