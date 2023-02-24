@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Challenge10 {
+public class Challenge10_reto7 {
     public static void main(String[] args) {
         Scanner redeye=new Scanner(System.in);
         int cost;

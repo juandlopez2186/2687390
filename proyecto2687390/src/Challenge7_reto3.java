@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-public class Challenge7 {
+public class Challenge7_reto3 {
     public static void main(String[] args) {
         Scanner redeye=new Scanner(System.in);
         Random result=new Random();
