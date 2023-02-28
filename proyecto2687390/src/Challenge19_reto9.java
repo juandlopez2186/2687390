@@ -52,7 +52,7 @@ public class Challenge19_reto9 {
             System.out.println("de acuerdo...");
         }
         else{
-            System.out.println("como desee gano "+a+" y obtuvo en tiene en total "+global);
+            System.out.println("como desee jugo "+a+" y tiene en total "+global);
                 x=x+1;
                 }    
         }

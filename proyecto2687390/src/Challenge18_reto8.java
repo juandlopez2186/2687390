@@ -39,6 +39,7 @@ public static void main(String[] args) {
             a=cost+a;
             break;
             case 4:
+            cost=cost-cost;
             System.out.println("felicidades a ganado una compra completamente gratis ");
             break;
             
@@ -48,8 +49,7 @@ public static void main(String[] args) {
     else{
        
     }
-
-}
+    }
 redeye.close();
 }
 }
