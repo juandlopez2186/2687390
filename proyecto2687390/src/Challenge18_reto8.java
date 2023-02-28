@@ -17,7 +17,7 @@ public static void main(String[] args) {
     cost=cost*pop;
     a=cost+a;
     System.out.println("el total es de "+a);
-    if(cost>50000){
+    if(cost>50000 && x>=limit){
         redeye.nextLine();
         switch(ra){
             case 1:
