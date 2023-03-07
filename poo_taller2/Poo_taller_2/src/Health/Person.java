@@ -2,8 +2,8 @@ package Health;
 import java.util.Scanner;;
 public class Person {
     Scanner redeye=new Scanner(System.in);
-    int doc,age,heigth,weight;
-    String typedoc,name,lastname,gen;
+    public int doc,age,heigth,weight;
+    public String typedoc,name,lastname,gen;
 public void getdata() {
     System.out.println("digite su tipo de documento");
     typedoc=redeye.nextLine();
