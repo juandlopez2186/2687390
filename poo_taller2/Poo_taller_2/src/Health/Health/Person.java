@@ -24,14 +24,14 @@ public void getdata() {
 }
 public void showperson() {
     System.out.println("datos de la persona");
-    System.out.println(typedoc);
-    System.out.println(name);
-    System.out.println(lastname);
-    System.out.println(gen);
-    System.out.println(doc);
-    System.out.println(age);
-    System.out.println(weight);
-    System.out.println(heigth);
+    System.out.println("tipo de documento: "+typedoc);
+    System.out.println("nombre: "+name);
+    System.out.println("apellido: "+lastname);
+    System.out.println("genero: "+gen);
+    System.out.println("numero de documento: "+doc);
+    System.out.println("edad: "+age);
+    System.out.println("peso: "+weight);
+    System.out.println("altura: "+heigth);
 }
 public void calcularingmc() {
     float actualweight;
@@ -41,10 +41,11 @@ public void calcularingmc() {
     }
     else if (actualweight<=25 || actualweight>=20) {
         System.out.println("el peso es ideal");
-    }
+        }
     else {
         System.out.println("el peso esta debajo del ideal");
     }
+    
 }
 public void highage() {
     if (age>=18) {
