@@ -9,7 +9,6 @@ public class animal {
 public animal(String nombre, int edad) {
     this.nombre = nombre;
     this.edad = edad;
-    animal tigre=new animal();
 }
 
 Scanner redeye=new Scanner(System.in);

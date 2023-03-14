@@ -51,7 +51,6 @@ public class Movie {
     }
     public static void main(String[] args) {
         Movie up=new Movie();
-        Movie la_noche_del_demonio=new Movie();
         System.out.println("");
         up.setName("la nueva era");
         up.setCategory("aventura");
