@@ -9,9 +9,9 @@ public class animal {
 public animal(String nombre, int edad) {
     this.nombre = nombre;
     this.edad = edad;
-
+    animal tigre=new animal();
 }
-animal tigre=new animal();
+
 Scanner redeye=new Scanner(System.in);
 public void addAnimal(String nombre,int edad) {
     System.out.println("ingrese el nombre del animal");
@@ -21,6 +21,20 @@ public void addAnimal(String nombre,int edad) {
 }    
 public void showAnimal() {
     System.out.println("el nombre del animal ingresado es "+nombre+"y su edad es"+edad);
+}
+//metodo get mostrar
+public int getEdad(){
+    return edad;
+}
+public String getNombre() {
+    return nombre;
+}
+//metodo set modificar
+public void setEdad(int edad) {
+ this.edad=edad;   
+}
+public void setNombre(String nombre) {
+    this.nombre=nombre;
 }
 }
 

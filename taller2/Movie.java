@@ -4,8 +4,8 @@ public class Movie {
     Scanner redeye=new Scanner(System.in);
     private String name;
     private String category;
-    int year;
-    public int duration;
+    private int year;
+    private int duration;
     public Movie(){}
     public Movie(String name,String category, int year, int duration){
         this.name=name;
@@ -25,11 +25,48 @@ public class Movie {
         year=redeye.nextInt();
         System.out.println(name+category+duration+year);
     }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getCategory() {
+        return category;
+    }
+    public void setCategory(String category) {
+        this.category = category;
+    }
+    public int getYear() {
+        return year;
+    }
+    public void setYear(int year) {
+        this.year = year;
+    }
+    public int getDuration() {
+        return duration;
+    }
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
     public static void main(String[] args) {
         Movie up=new Movie();
         Movie la_noche_del_demonio=new Movie();
-        up.AddMovie();
-        la_noche_del_demonio.AddMovie();
+        System.out.println("");
+        up.setName("la nueva era");
+        up.setCategory("aventura");
+        up.setDuration(3);
+        up.setYear(2006);
+        System.out.println("el nombre de la pelicula es "+up.getName()+" la categoria de la peicula es "+up.getCategory()+" su duracion es de "+up.getDuration()+" horas y el año de estreno es "+up.getYear());
+    }
+    public void ad() {
+        System.out.println("hola");
+    }
+    public void ad(String name) {
+        System.out.println("jailer");
+    }
+    public void ad(String name,int year) {
+        System.out.println("bienvenido");
     }
 }
 
