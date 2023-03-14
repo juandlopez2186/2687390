@@ -2,16 +2,16 @@ package taller2.Health;
 import java.util.Scanner;
 public class Person {
 static Scanner redeye=new Scanner (System.in);
-   String typeDoc;
-   int doc;
-   String name;
-   String lastname;
-   double weigth;
-   double heigth;
-   int age;
-   double weigthHeigth;
-   double actualWeight;
-   String gender;
+   private String typeDoc;
+   private int doc;
+   private String name;
+   private String lastname;
+   private double weigth;
+   private double heigth;
+   private int age;
+   private double weigthHeigth;
+   private double actualWeight;
+   private String gender;
    public void pedirDatos(){
     System.out.println("Ingrese el nombre de la persona");
     name=redeye.nextLine();
