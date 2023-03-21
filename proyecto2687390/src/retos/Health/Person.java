@@ -1,4 +1,4 @@
-package taller2.Health;
+package Health;
 import java.util.Scanner;
 public class Person {
 static Scanner redeye=new Scanner (System.in);
