@@ -49,7 +49,7 @@ static Scanner redeye=new Scanner (System.in);
     System.out.println("Su estatura es: "+heigth);
     System.out.println("y su sexo es: "+gender);
    }
-   public void calcularlmc(){
+   public Double calcularlmc(){
     weigthHeigth=Math.pow (heigth,2);
     actualWeight=weigth/weigthHeigth;
     if (actualWeight<20.0){
@@ -61,6 +61,7 @@ static Scanner redeye=new Scanner (System.in);
     else if (actualWeight>25.0){
       System.out.println("Su peso es: "+actualWeight+" tiene sobre peso");
     }
+    return actualWeight;
    }
    public void mayoredad(){
     if (age<18){
