@@ -12,7 +12,67 @@ static Scanner redeye=new Scanner (System.in);
    private double weigthHeigth;
    private double actualWeight;
    private String gender;
-   public void pedirDatos(){
+public String getTypeDoc() {
+    return typeDoc;
+}
+public void setTypeDoc(String typeDoc) {
+    this.typeDoc = typeDoc;
+}
+public int getDoc() {
+    return doc;
+}
+public void setDoc(int doc) {
+    this.doc = doc;
+}
+public String getName() {
+    return name;
+}
+public void setName(String name) {
+    this.name = name;
+}
+public String getLastname() {
+    return lastname;
+}
+public void setLastname(String lastname) {
+    this.lastname = lastname;
+}
+public double getWeigth() {
+    return weigth;
+}
+public void setWeigth(double weigth) {
+    this.weigth = weigth;
+}
+public double getHeigth() {
+    return heigth;
+}
+public void setHeigth(double heigth) {
+    this.heigth = heigth;
+}
+public int getAge() {
+    return age;
+}
+public void setAge(int age) {
+    this.age = age;
+}
+public double getWeigthHeigth() {
+    return weigthHeigth;
+}
+public void setWeigthHeigth(double weigthHeigth) {
+    this.weigthHeigth = weigthHeigth;
+}
+public double getActualWeight() {
+    return actualWeight;
+}
+public void setActualWeight(double actualWeight) {
+    this.actualWeight = actualWeight;
+}
+public String getGender() {
+    return gender;
+}
+public void setGender(String gender) {
+    this.gender = gender;
+}
+public void pedirDatos(){
     System.out.println("Ingrese el nombre de la persona");
     name=redeye.nextLine();
     System.out.println("Ingrese el apellido de la persona");
@@ -71,5 +131,6 @@ static Scanner redeye=new Scanner (System.in);
         System.out.println("Es mayor de edad al tener "+age+" años");
     }
    }
+   
 }
 
