@@ -1,4 +1,4 @@
-package Health;
+package retostaller2POO.Health;
 import java.util.Scanner;
 public class Person {
 static Scanner redeye=new Scanner (System.in);

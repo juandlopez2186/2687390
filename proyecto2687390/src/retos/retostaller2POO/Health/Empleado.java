@@ -1,4 +1,4 @@
-package Health;
+package retostaller2POO.Health;
 
 public class Empleado extends Person {
     private String cargo;

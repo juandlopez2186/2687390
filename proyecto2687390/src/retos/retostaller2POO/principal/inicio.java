@@ -1,5 +1,5 @@
-package principal;
-import Health.Person;
+package retostaller2POO.principal;
+import retostaller2POO.Health.Person;
 public class inicio {
     public static void main(String[] args) {
        Person pe=new Person();

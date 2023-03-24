@@ -1,4 +1,4 @@
-package Health;
+package retostaller2POO.Health;
 public class ece {
     public static void main(String[] args) {
         Empleado emp=new Empleado();
