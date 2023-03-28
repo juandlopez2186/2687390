@@ -10,5 +10,5 @@ public class Challenge2 {
         area=width*height;
         System.out.println("la superficie a cubrir tiene :"+width+" metros de ancho por "+height+" metros cuadrados. El presupuesto es "+area*45000);
         lectura.close();
-   }
-}
+        }
+        }
